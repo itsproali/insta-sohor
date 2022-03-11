@@ -11,12 +11,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
     <!-- google Montserrat  font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -57,8 +57,59 @@
             <h1>Reported posts</h1>
         </div>
     </main>
+
+    <!-- Frequently Asked Questions -->
+    <section class="container mx-auto py-4">
+        <h1 class="text-center py-4">Frequently Asked <span class="text-primary">Questions</span></h1>
+        <div class="row row-cols-1 row-cols-lg-2 g-4 d-lg-flex align-items-lg-center">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    How does javascript works?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Javascript is scripting or a programming language. It allows the creation or changes of any data on web pages dynamically.
+                    It is not a compiler language. When Javascript code runs on a browser, the browser translates into bytecode using a compiler. Then the machine can understand the bytecode and execute the result to the user.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What does javascript event loop do?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Planning an event can take from 2 to 4 days, it really depends on the size and the details that the event involves. Having enough time allows you to comfortably cover different areas and prepare yourself for potential scenarios that might happen so you can consider various options prior the date. The only things that need planning are the event elements such as catering, entertainment, technical and venue.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed  fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is the difference between Local Storage and session Storage?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The simplest way to keep track of your finances, especially your cash, is the low-tech way, with a notebook and a pen. By carrying around the notebook with us, we track exactly where every dollar is going from a small coffee on your way to work to a spending splurge at the mall. If you'd prefer, on a daily or weekly basis, we can transfer our handwritten notes to a computer spreadsheet.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-image">
+            <img class="img-fluid rounded-3" src="img/faq-image.jpg" alt="Frequently Asked Questions">
+          </div>
+        </div>
+      </section>
     <footer></footer>
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- add javascript  file  -->
     <script src="js/app.js"></script>
 </body>
